@@ -1,80 +1,96 @@
-body
+.menunav-bar 
 {
-    background-color: black;
+    background-color:#ffde00 ;
+    padding: 3vh;
+    /*padding: 2vh;*/
 }
-.menyo
-{
-    background-color: black;
-    background-image: image();
-}
-.menyo .navbar li a
-{
-    color: white;
-    font-family: 'Syne Mono', monospace;
-    margin-left: 10vh;
-    border-radius: 20px;
-}
-.menyo .navbar li a:hover
-{
-    font-size: 20px;
-   
-    
-    transition: ease-in-out 0.3s;
-}
-.menyo .navbar .container-fluid img
-{
-    width: 200px;
-    height: auto;
-}
-.menyo .navbar-nav 
-{
-    margin-left: 50vh;
-}
-.menyo .navbar-toggler-icon
-{
-    background-color: azure;
-    border-radius: 5px;
-}
-.bannsec .carousel-caption
+.car .carousel-caption
 {
     text-align: end;
+
 }
-.bannsec .carousel-caption a
+.menunav-bar .container-fluid img
 {
-    font-family: 'Syne Mono', monospace;
+    
+    width: 130px;
+    padding: 0%;
 }
-.bannsec .carousel-caption button:hover
+.navbar-nav li a
 {
-    font-size: 20px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-nav li a:hover
+{
+    font-size: 17px;
+    transition: ease-in-out 0.3s;
+    padding: 3px;
+    background-color: white;
+    border-radius: 7px;
 }
 
-
-
-.sec1
+.c1
 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10vh;
+    color: azure;
     background-color: black;
-    color: white;
+}
+.c1 h1
+{
+    font-size: 45px;
+}
+.c1 h2
+{
+    font-size: 20px;
+}
+.Content .row img
+{
+    width: 300px;
+    height: auto;
+}
+.Content
+{
+    background-color: black;
     
 }
-.sec1 h2
+.Content .row .card-body
 {
-    font-family: 'Syne Mono', monospace;
-    padding-top: 5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
-.sec1 img
+.Content .row .card
 {
-   width: 100%;
-   height: auto;
+    border: none;
+
+}
+.menunav-bar .navbar-nav
+{
+    margin-left: 100vh;
+}
+.navbar-nav li a
+{
+    margin-left: 30px;
+
 }
 @media (max-width: 992px){
-	.menyo .navbar-nav 
-{
-    margin-left: 10vh;
+	.Content .row .card 
+    {
+        left: 5vh;
+    }
+    .menunav-bar .navbar-nav
+    {
+    margin-left: 4px;
+    }
 }
-.menyo .navbar li a
-{
-    margin-left: 0vh;
-}
+@media (max-width: 360px){
+	.Content .row .card 
+    {
+        left: 5vh;
+    }
+    .menunav-bar .navbar-nav
+    {
+    margin-left: 4px;
+    }
 }
